@@ -2,6 +2,7 @@ h1 {
   color: blueviolet;
 }
 footer{
+  display:inline-bottom;
   bottom:0;
 }
 
