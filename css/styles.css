@@ -4145,8 +4145,8 @@ a.close.disabled {
   left: 0;
   z-index: 1050;
   display: none;
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
   overflow: hidden;
   outline: 0; }
 
