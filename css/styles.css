@@ -7281,12 +7281,12 @@ h3 {
   .masthead .masthead-subheading {
     font-size: 1.25rem; }
   .masthead .masthead-avatar {
-    width: 15rem; cursor: pointer; position: absolute;}
+    width: 15rem; cursor: pointer; position: absolute; z-index: 1000;}
 
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem; }cursor: pointer; position: absolute;
+    padding-bottom: 6rem; }
     .masthead .masthead-heading {
       font-size: 4rem;
       line-height: 3.5rem; }
