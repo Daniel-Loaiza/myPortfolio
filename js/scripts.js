@@ -67,3 +67,39 @@
   
   })(jQuery); // End of use strict
   
+game.onmousedown = function(event) {
+
+let shiftX = event.clientX - game.getBoundingClientRect().left;
+let shiftY = event.clientY - game.getBoundingClientRect().top;
+
+game.style.position = 'absolute';
+game.style.zIndex = 1000;
+document.body.append(game);
+
+moveAt(event.pageX, event.pageY);
+
+// moves the game at (pageX, pageY) coordinates
+// taking initial shifts into account
+function moveAt(pageX, pageY) {
+   game.style.left = pageX - shiftX + 'px';
+   game.style.top = pageY - shiftY + 'px';
+}
+
+function onMouseMove(event) {
+   moveAt(event.pageX, event.pageY);
+}
+
+// move the game on mousemove
+document.addEventListener('mousemove', onMouseMove);
+
+// drop the game, remove unneeded handlers
+game.onmouseup = function() {
+   document.removeEventListener('mousemove', onMouseMove);
+   game.onmouseup = null;
+};
+
+};
+
+game.ondragstart = function() {
+   return false;
+};
