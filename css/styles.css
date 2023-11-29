@@ -7416,7 +7416,7 @@ form .row:first-child .floating-label-form-group {
   margin-bottom: 0.5rem; }
 
 #game{
-  vertical-align: middle;
+  vertical-align: top;
   cursor: pointer; 
   position: absolute; 
   z-index: 1000;
