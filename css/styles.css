@@ -7421,7 +7421,7 @@ form .row:first-child .floating-label-form-group {
   vertical-align: top;
   cursor: pointer; 
   position: absolute; 
-  max-width: 100%;
+  width: auto;
   height: auto;  
   z-index: 1000;
   border-style: none;
