@@ -7420,7 +7420,7 @@ form .row:first-child .floating-label-form-group {
   margin-right: auto;
   vertical-align: top;
   cursor: pointer; 
-  position: absolute; 
+  position: relative; 
   width: auto;
   height: auto;  
   z-index: 1000;
