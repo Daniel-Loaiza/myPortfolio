@@ -7437,13 +7437,4 @@ form .row:first-child .floating-label-form-group {
     position: relative;
     z-index: 1;
 }
-#game{
-  margin-left: auto;
-  margin-right: auto;
-  cursor: grab; 
-  position: relative; 
-  width: auto;
-  height: auto;  
-  z-index: 1000;
-  border-style: none;
-}
+
