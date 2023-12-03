@@ -7428,7 +7428,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .img1 {    
-    position: absolute;    
+    position: relative;    
     z-index: -1;
 }
 
