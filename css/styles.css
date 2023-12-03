@@ -7415,6 +7415,28 @@ form .row:first-child .floating-label-form-group {
 .btn-social {
   margin-bottom: 0.5rem; }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    top:auto;
+    left:auto;
+    width:40%; 
+}
+
+.img1 {    
+    position: absolute;    
+    z-index: -1;
+}
+
+.img2 {   
+    cursor:grab;
+    position: relative;
+    z-index: 1;
+}
 #game{
   margin-left: auto;
   margin-right: auto;
