@@ -7418,7 +7418,7 @@ form .row:first-child .floating-label-form-group {
 #game{
   margin-left: auto;
   margin-right: auto;
-  cursor: pointer; 
+  cursor: grab; 
   position: relative; 
   width: auto;
   height: auto;  
